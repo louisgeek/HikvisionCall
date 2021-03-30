@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.louisgeek.hikvisioncall">
+    package="com.louisgeek.hikvisioncall"
+    android:sharedUserId="android.uid.system">
+
+    <!-- 系统刷机权限 -->
+    <uses-permission android:name="android.permission.RECOVERY" />
+
+    <!-- 设置时间和时区权限 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <!-- 关机权限 -->
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+
+    <!-- 静默安装权限 -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <!-- 息屏权限 -->
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <!-- 读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 格式化SD卡 -->
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTE MS" />
+
+    <!-- 网络相关权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
 
 </manifest>
