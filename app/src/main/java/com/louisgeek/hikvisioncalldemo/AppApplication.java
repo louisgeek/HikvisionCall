@@ -1,4 +1,4 @@
-package com.louisgeek.hikvisioncall;
+package com.louisgeek.hikvisioncalldemo;
 
 import android.app.Activity;
 import android.app.Application;
